@@ -1,3 +1,9 @@
+/**
+ * KRPano Orientation V0.1.0
+ * URL: https://github.com/senegalo/krpano-orientation
+ * Author: Karim Mansour
+ */
+
 function krpanoplugin() {
 
   class KRpanoOrientation {

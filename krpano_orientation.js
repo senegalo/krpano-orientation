@@ -34,7 +34,6 @@ function krpanoplugin() {
     correctOrientation() {
       var vlookat = this.orientation_v + this.getKRpanoFloat('view.refvlookat');
       var hlookat = this.orientation_h + this.getKRpanoFloat('view.refhlookat');
-      console.log("7amda gah", vlookat, hlookat);
       this.krpano.call('skin_lookat('+hlookat+','+vlookat+')');
     }
 
@@ -44,7 +43,6 @@ function krpanoplugin() {
 
     destroy() {
      // Goodbye Cruel world !!
-      this.krpano.trace("Zalaaamoooni");
     }
   }
 
